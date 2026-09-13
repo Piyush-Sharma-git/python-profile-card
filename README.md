@@ -9,6 +9,7 @@ A beginner-friendly Python mini project that takes user details, cleans the inpu
 - Cleans and formats input data using Python string methods.
 - Extracts the username from the provided email address (everything before `@`).
 - Basic validation: Displays `Invalid Email ` if the `@` symbol is missing.
+- Clears the terminal before displaying the final output (for cleaner display).
 
 ---
 
@@ -60,3 +61,12 @@ Course: BCA
 - Handle multiple spaces between first and last name using `.split()` and `.join()`.
 - Add stronger email validation (check for domain extensions like .com).
 - Add basic length and character validation for phone numbers.
+
+---
+
+## 📝 Notes
+-  The program clears the terminal before displaying the final profile for cleaner output.
+- The screen-clearing behavior may vary depending on the operating system and terminal.
+- This feature currently uses the Windows `cls` command.
+- Clearing the screen is only visual and does not securely erase terminal history.
+
